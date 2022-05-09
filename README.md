@@ -11,7 +11,7 @@ demonstrates this architecture.
 ## Concept
 
 There is a top-level Qt application defined in [main.py](main.py). That
-application looks in the `plugins/` directory and loads all of those
+application looks in the [plugins/](plugins) directory and loads all of those
 subdirectories as Python packages called _plugins_. Each plugin exports two
 items that the host application needs to interact with it, a window object
 called `this_window` and a function called `clicked_function` that runs when
