@@ -8,6 +8,8 @@ new application in order to account for this complexity.
 This gist gives an example of a very small Python and Qt application that
 demonstrates this architecture.
 
+<img width="565" alt="example application" src="https://user-images.githubusercontent.com/443389/167451145-97d94756-62ad-4b0a-8f0a-cf653ad88856.png">
+
 ## Concept
 
 There is a top-level Qt application defined in [main.py](main.py). That
