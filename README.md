@@ -28,3 +28,17 @@ access.
 You need Python and `pipenv` installed on your compute. Create a Python
 virtual environment for this application using `pipenv install`. Then run the
 application with `pipenv run python ./main.py`.
+
+## Next Steps
+
+This is an extremely basic example. For an actual field application, more
+featureful capabilities and interfaces between the host application and
+plugins would need to be designed and implemented. 
+
+As an example, a plugin that loads configuration information from disk could
+be built to populate the main `config_info` site list. Or that plugin could
+load site information from an online data system using API calls.
+
+As another example, a plugin that records data from an activity could store
+the results in the host application and a separate plugin could output those
+results in an output format that can be loaded into another system.
